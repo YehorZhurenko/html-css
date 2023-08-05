@@ -5,8 +5,7 @@ p {
 }
 
 .thumbnail {
-    width: 300px;
-    display: block;
+    width: 100%;
     margin-bottom: 12px;
 }
 
@@ -33,23 +32,30 @@ p {
 }
 
 .video-preview {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
+
+}
+
+.video-chanel-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .channel-pic {
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
+
 }
 
 .video-info {
-    display: inline-block;
-    width: 200px;
+    margin-left: 7px;
 }
 
 .profile-pic {
     width: 100% ;
-    border-radius: 50%;
+    border-radius: 50%;     
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
 }
